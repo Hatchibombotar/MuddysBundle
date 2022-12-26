@@ -9,13 +9,20 @@
 }
 
 .header {
-  height: 100px;
+  max-height: 100px;
   margin: 20px;
 }
 
 .header a {
   cursor: pointer;
 }
+
+.header img {
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+}
+
 
 .moduleList {
   display: grid;
@@ -97,10 +104,25 @@
   background-color: var(--foreground-main);
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .sidebar {
-  margin-left: 0;
-  position: unset;
+    margin-left: 0;
+    width: 60%;
+    position: unset;
+    margin: 0px 20px;
+    margin-bottom: 20px;
+  }
+  .picker {
+    width: 100%;
+  }
+
+  .preview {
+    display: none;
   }
 }
 
