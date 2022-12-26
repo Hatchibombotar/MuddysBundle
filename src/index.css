@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  background-image: url('/backgrounds/powder_basalt.png');
+  background-repeat: repeat;
+}

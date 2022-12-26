@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Developers",
+        "members": [
+            {
+                "name": "Bold Muddy",
+                "group": "team",
+                "link": "https://www.planetminecraft.com/member/bold_muddy/",
+                "type": "static",
+                "avatar": "Bold_Muddy.png",
+                "description": "Resource Pack Development"
+            },
+            {
+                "name": "hatchibombotar",
+                "group": "team",
+                "link": "https://hatchibombotar.com/",
+                "type": "static",
+                "avatar": "hatchibombotar.png",
+                "description": "Website Development"
+            }
+        ]
+    },
+    {
+        "name": "Other Contributors",
+        "members": [
+            {
+                "name": "Beatso",
+                "group": "team",
+                "link": "https://github.com/Beatso",
+                "type": "dynamic",
+                "uuid": "895ae84776e0441283db420cf8444e30",
+                "description": "Original Website Development"
+            },
+            {
+                "name": "Pinku Rinku",
+                "group": "contributor",
+                "link": "https://www.youtube.com/channel/UCEh2vxNdDr6n3Hi_3QsrCsA",
+                "type": "static",
+                "avatar": "PinkuRinku.png",
+                "description": "Some Packs and Emotional Support"
+            },
+            {
+                "name": "LaserFont0103",
+                "group": "contributor",
+                "link": "https://twitter.com/LaserFont0103",
+                "type": "static",
+                "avatar": "LaserFont0103.png",
+                "description": "Oinkers Maclin Armor"
+            }
+        ]
+    }
+]

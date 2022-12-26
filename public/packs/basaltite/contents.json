@@ -1,0 +1,20 @@
+[
+    "minecraft\\lang\\en_us.json",
+    "minecraft\\textures\\block\\ancient_debris_side.png",
+    "minecraft\\textures\\block\\ancient_debris_top.png",
+    "minecraft\\textures\\block\\lodestone_side.png",
+    "minecraft\\textures\\block\\netherite_block.png",
+    "minecraft\\textures\\item\\netherite_axe.png",
+    "minecraft\\textures\\item\\netherite_boots.png",
+    "minecraft\\textures\\item\\netherite_chestplate.png",
+    "minecraft\\textures\\item\\netherite_helmet.png",
+    "minecraft\\textures\\item\\netherite_hoe.png",
+    "minecraft\\textures\\item\\netherite_ingot.png",
+    "minecraft\\textures\\item\\netherite_leggings.png",
+    "minecraft\\textures\\item\\netherite_pickaxe.png",
+    "minecraft\\textures\\item\\netherite_scrap.png",
+    "minecraft\\textures\\item\\netherite_shovel.png",
+    "minecraft\\textures\\item\\netherite_sword.png",
+    "minecraft\\textures\\models\\armor\\netherite_layer_1.png",
+    "minecraft\\textures\\models\\armor\\netherite_layer_2.png"
+]

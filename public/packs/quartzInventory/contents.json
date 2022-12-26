@@ -1,0 +1,18 @@
+[
+    "minecraft\\models\\item\\chiseled_quartz_block.json",
+    "minecraft\\models\\item\\quartz_block.json",
+    "minecraft\\models\\item\\quartz_bricks.json",
+    "minecraft\\models\\item\\quartz_pillar.json",
+    "minecraft\\models\\item\\quartz_slab.json",
+    "minecraft\\models\\item\\quartz_stairs.json",
+    "minecraft\\models\\item\\smooth_quartz_slab.json",
+    "minecraft\\models\\item\\smooth_quartz_stairs.json",
+    "minecraft\\models\\item\\smooth_quartz.json",
+    "minecraft\\textures\\block\\chiseled_quartz_block_item.png",
+    "minecraft\\textures\\block\\chiseled_quartz_block_top_item.png",
+    "minecraft\\textures\\block\\quartz_block_bottom_item.png",
+    "minecraft\\textures\\block\\quartz_block_side_item.png",
+    "minecraft\\textures\\block\\quartz_bricks_item.png",
+    "minecraft\\textures\\block\\quartz_pillar_item.png",
+    "minecraft\\textures\\block\\quartz_pillar_top_item.png"
+]

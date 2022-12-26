@@ -1,0 +1,8 @@
+[
+    "minecraft\\models\\block\\template_hanging_lantern.json",
+    "minecraft\\models\\block\\template_lantern.json",
+    "minecraft\\textures\\block\\lantern.png",
+    "minecraft\\textures\\block\\soul_lantern.png",
+    "minecraft\\textures\\item\\lantern.png",
+    "minecraft\\textures\\item\\soul_lantern.png"
+]

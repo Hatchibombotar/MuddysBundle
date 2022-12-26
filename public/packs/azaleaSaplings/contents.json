@@ -1,0 +1,10 @@
+[
+    "minecraft\\lang\\en_us.json",
+    "minecraft\\models\\block\\small_dripleaf_bottom.json",
+    "minecraft\\models\\block\\small_dripleaf_top.json",
+    "minecraft\\models\\item\\small_dripleaf.json",
+    "minecraft\\textures\\block\\azalea_leaves_flowers.png",
+    "minecraft\\textures\\block\\azalea_tree.png",
+    "minecraft\\textures\\block\\flowering_azalea_side.png",
+    "minecraft\\textures\\block\\flowering_azalea_top.png"
+]

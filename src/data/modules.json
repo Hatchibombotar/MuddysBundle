@@ -1,0 +1,653 @@
+[
+	{
+		"name": "Tweaks & Fixes",
+        "modules": [
+            {
+                "id": "steverStand",
+                "label": "Stever Stand",
+                "description": "Adds a cool steve head to the Armor Stand.",
+                "category": "tweaks",
+                "optifine": "required",
+                "incompatibilities": [ "dungeonsDummy" ]
+            },
+            {
+                "id": "hotStrider",
+                "label": "Hot Strider",
+                "description": "Changes the cold strider texture to be red and cozy at all times!",
+                "category": "tweaks",
+                "incompatibilities": [ "beeStrider" ]
+            },
+            {
+                "id": "pooplessHorse",
+                "label": "Poopless Horse",
+                "description": "Removes one of the ugly horse overlays.",
+                "category": "tweaks"
+            },
+            {
+                "id": "redstoneSculkSensor",
+                "label": "Redstone Sculk Sensor",
+                "description": "Changes the Sculk Sensor to be Redstone themed.",
+                "category": "tweaks",
+                "incompatibilities": [ "redstoneLampSculkSensor", "cakeLie", "betterSculkSensor" ]
+            },
+            {
+                "id": "redstoneLampSculkSensor",
+                "label": "Redstone Lamp Sculk Sensor",
+                "description": "Changes the Sculk Sensor to be Redstone themed, but with a lamp instead of torches.",
+                "category": "tweaks",
+                "incompatibilities": [ "redstoneSculkSensor", "cakeLie", "betterSculkSensor" ]
+            },
+            {
+                "id": "earfulZombifiedPiglin",
+                "label": "Earful Zombified Piglin",
+                "description": "Adds a bone ear to the Zombiifed Piglin.",
+                "category": "tweaks",
+                "optifine": "required"
+            },
+            {
+                "id": "makeupGlowsquid",
+                "label": "Makeup Glow Squid",
+                "description": "Removes a weird glow spot on the Glow Squid's Face.",
+                "category": "tweaks",
+                "incompatibilities": [ "glowyGlowsquid", "prismarineGlowsquid", "glowPickler", "glowmethystSquid" ]
+            },
+            {
+                "id": "moobloomStyledCows",
+                "label": "Moobloom Styled Cows",
+                "description": "Changes every cow to appear with the Moobloom design.",
+                "category": "tweaks",
+                "incompatibilities": [ "picowle", "picowleMicro", "picowleMicroPlus", "cowStyledMoobloom", "deathCapped" ]
+            },
+            {
+                "id": "puffierPufferfish",
+                "label": "Puffier Pufferfish",
+                "description": "Makes all stages of Pufferfish to the biggest size, SO CUTE!",
+                "category": "tweaks",
+                "optifine": "required"
+            },
+            {
+                "id": "warpcylium",
+                "label": "Warpcylium",
+                "description": "Retextures Warped Nylium to be a bit like Myclium",
+                "category": "tweaks"
+            },
+            {
+                "id": "azaleaSaplings",
+                "label": "Azalea Saplings",
+                "description": "Remodels small dripleaf to a large and beautiful Azalea Bush",
+                "category": "tweaks"
+            },
+            {
+                "id": "borderlessGold",
+                "label": "Borderless Gold Block",
+                "description": "Retextures the gold block to be somewhat borderless",
+                "category": "tweaks"
+            },
+            {
+                "id": "powdersnowier",
+                "label": "Snowier Snow",
+                "description": "Renames Powder Snow to Snowier Snow",
+                "category": "tweaks"
+            },
+            {
+                "id": "bigRabbits",
+                "label": "Big Rabbits",
+                "description": "Remodels rabbits to be the same size as 1.8",
+                "category": "tweaks",
+                "optifine": "required",
+                "incompatibilities": [ "jumboRabbits" ]
+            },
+            {
+                "id": "quartzInventory",
+                "label": "Better Inventory Quartz",
+                "description": "Makes Quartz Blocks easier to identify when in Inventory. Doesn't affect placed blocks!",
+                "category": "tweaks"
+            },
+            {
+                "id": "vulpusSunflowers",
+                "label": "Vulpus Sunflowers",
+                "description": "Improves the look of Sunflowers",
+                "category": "tweaks",
+                "pinku": true
+            },
+            {
+                "id": "vulpusLeaves",
+                "label": "Vulpus Leaves",
+                "description": "Changes some leaves to look better, includes falling leaves and retextured saplings.",
+                "category": "tweaks",
+                "optifine": "required",
+                "pinku": true
+            },
+            {
+                "id": "overflowSnow",
+                "label": "Overflowing Powder Snow ",
+                "description": "Makes it easier to spot whether a Powder Snow Cauldron is full or not.",
+                "category": "tweaks"
+            },
+            {
+                "id": "betterSculkSensor",
+                "label": "Better Sculk Sensor",
+                "description": "Animates the Sculk Sensor to look better..",
+                "category": "tweaks",
+                "incompatibilities": [ "redstoneSculkSensor", "redstoneLampSculkSensor", "cakeLie" ]
+            },
+            {
+                "id": "unstableTNT",
+                "label": "Visual Unstable TNT",
+                "description": "Changes the TNT text to red, if the TNT is unstable.",
+                "category": "tweaks",
+                "incompatibilities": [ "enchantmentTnt" ]
+            },
+            {
+                "id": "enchantmentTnt",
+                "label": "Enchantment Language TNT",
+                "description": "Changes the TNT text to Enchantment Language.",
+                "category": "tweaks",
+                "incompatibilities": [ "unstableTNT" ]
+            }
+        ]
+	},
+	{
+		"name": "Mobs",
+        "modules": [
+            {
+                "id": "beeCreeper",
+                "label": "Bee Creeper",
+                "description": "Any Creeper spawned in flower forests, oak or birch forests will become Bee Creepers!",
+                "category": "mobs",
+                "optifine": "required",
+                "incompatibilities": [ "uwuCreepers", "beeCreeperDungeons", "mossCreeper", "rainbowMobs" ]
+            },
+            {
+                "id": "beeStrider",
+                "label": "Bee Strider",
+                "description": "Striders become BEES! ",
+                "category": "mobs",
+                "incompatibilities": [ "hotStrider" ]
+            },
+            {
+                "id": "picowle",
+                "label": "Picowle",
+                "description": "Cows spawning in certain biomes will become Glowing Pickle Cows",
+                "category": "mobs",
+                "optifine": "required",
+                "incompatibilities": [ "picowleMicro", "picowleMicroPlus", "cowStyledMoobloom", "deathCapped", "moobloomStyledCows" ]
+            },
+            {
+                "id": "uwuCreepers",
+                "label": "UwU Creepers",
+                "description": "As if those creeplings weren't creepy enough... prepare to get spooked!",
+                "category": "mobs",
+                "optifine": "required",
+                "incompatibilities": [ "beeCreeper", "beeCreeperDungeons", "mossCreeper", "rainbowMobs" ]
+            },
+            {
+                "id": "armorMobs",
+                "label": "Armor2Mobs",
+                "description": "Replaces some mobs to look like armors from Minecraft: Dungeons.",
+                "category": "dungeons"
+            },
+            {
+                "id": "glowyGlowsquid",
+                "label": "Glowy Glow Squid",
+                "description": "Makes the Glow Squid even more glowier!",
+                "category": "mobs",
+                "incompatibilities": [ "makeupGlowsquid", "prismarineGlowsquid", "glowPickler", "glowmethystSquid" ]
+            },
+            {
+                "id": "prismarineGlowsquid",
+                "label": "Prismarine Glow Squid",
+                "description": "Makes the Glow Squid look prismarine like.",
+                "category": "mobs",
+                "incompatibilities": [ "glowyGlowsquid", "makeupGlowsquid", "glowPickler", "glowmethystSquid" ]
+            },
+            {
+                "id": "loveGolem",
+                "label": "Love Golem",
+                "description": "Changes the Iron Golem to be Love Themed",
+                "category": "mobs"
+            },
+            {
+                "id": "beeCreeperDungeons",
+                "label": "Dungeons Bee Creeper",
+                "description": "Any Creeper spawned in flower forests, oak or birch forests will become Bee Creepers!, but with the Dungeons Creeper",
+                "category": "mobs",
+                "optifine": "required",
+                "incompatibilities": [ "uwuCreepers", "beeCreeper", "mossCreeper", "rainbowMobs" ]
+            },
+            {
+                "id": "cowStyledMoobloom",
+                "label": "Cow Styled Moobloom",
+                "description": "Any Cow spawned in flower forests or sunflower plains will become a Moobloom, but with the style of the vanilla cow",
+                "category": "mobs",
+                "optifine": "required",
+                "incompatibilities": [ "picowle", "picowleMicro", "picowleMicroPlus", "deathCapped", "moobloomStyledCows" ]
+            },
+            {
+                "id": "glowPickler",
+                "label": "Glow Pickler",
+                "description": "Changes the Glow Squid to appear like a Sea Pickle.",
+                "category": "mobs",
+                "incompatibilities": [ "makeupGlowsquid", "glowyGlowsquid", "prismarineGlowsquid", "glowmethystSquid" ]
+            },
+            {
+                "id": "glowmethystSquid",
+                "label": "Glowmethyst Squid",
+                "description": "Changes the Glow Squid to appear like Amethyst.",
+                "category": "mobs",
+                "incompatibilities": [ "makeupGlowsquid", "glowyGlowsquid", "prismarineGlowsquid", "glowPickler" ],
+                "pinku": true
+            },
+            {
+                "id": "mossCreeper",
+                "label": "Moss Creepers",
+                "description": "Retextures the Creeper to be covered with moss",
+                "category": "mobs",
+                "incompatibilities": [ "uwuCreepers", "beeCreeper", "beeCreeperDungeons", "rainbowMobs" ],
+                "pinku": true
+            },
+            {
+                "id": "earthCreepers",
+                "label": "Earth Creepers",
+                "description": "Adds a variety of different Creepers based on biomes, all creeper designs are inspired by Minecraft: Earth Mobs!",
+                "category": "mobs",
+                "optifine": "required",
+                "incompatibilities": [ "beeCreeper", "beeCreeperDungeons" ]
+            },
+            {
+                "id": "earthFoxes",
+                "label": "Earth Foxes",
+                "description": "Adds a variety of different Foxes based on biomes, all fox designs are inspired by Minecraft: Earth Mobs!",
+                "category": "mobs",
+                "optifine": "required",
+                "incompatibilities": [ "pinkFoxes", "rainbowMobs" ],
+                "pinku": true
+            },
+            {
+                "id": "jumboRabbits",
+                "label": "Jumbo Rabbits",
+                "description": "Changes Rabbit Model to appear like the big Jumbo Rabbit from Minecraft: Earth",
+                "category": "mobs",
+                "optifine": "required",
+                "incompatibilities": [ "bigRabbits", "boldMuddy", "basaltBuddies" ]
+            },
+            {
+                "id": "rainbowMobs",
+                "label": "Rainbow Mobs",
+                "description": "Adds Rainbow variants to a few mobs, inspired by the Rainbow Sheep from Minecraft: Earth.",
+                "category": "mobs",
+                "optifine": "required",
+                "incompatibilities": [ "uwuCreepers", "beeCreeperDungeons", "mossCreeper", "beeCreeper", "thiccBees", "ghastlyBeekeeping", "pinkFoxes", "earthFoxes", "basaltBuddies" ]
+            }
+        ]
+	},
+	{
+		"name": "Gear",
+        "modules": [
+            {
+                "id": "satanicTrident",
+                "label": "Satanic Trident",
+                "description": "Recolors the Trident with colors straight from hell!",
+                "category": "gear",
+                "incompatibilities": [ "amethystTrident", "diamondTrident", "whisperingTrident", "anniversaryGyllene", "monetherite" ]
+            },
+            {
+                "id": "diamondTrident",
+                "label": "Diamond Trident",
+                "description": "Recolors the Trident to be themed with the rest of the Diamond Tools.",
+                "category": "gear",
+                "incompatibilities": [ "amethystTrident", "satanicTrident", "whisperingTrident", "anniversaryGyllene", "monetherite" ]
+            },
+            {
+                "id": "netheriteShields",
+                "label": "Netherite Shields",
+                "description": "You can rename shields to '<material> shield' and it will change. List of materials can be found in the files.",
+                "category": "gear",
+                "optifine": "required"
+            },
+            {
+                "id": "basaltite",
+                "label": "Basaltite",
+                "description": "Netherite Tools become Basalt themed.",
+                "category": "gear",
+                "incompatibilities": [ "honeyPackNetherite", "emeraldite", "sunGrace", "anniversaryGyllene" ]
+            },
+            {
+                "id": "emeraldite",
+                "label": "Emeraldite",
+                "description": "Netherite Tools become Emerald themed.",
+                "category": "gear",
+                "incompatibilities": [ "honeyPackNetherite", "basaltite", "sunGrace", "heartSwords", "anniversaryGyllene" ]
+            },
+            {
+                "id": "sunGrace",
+                "label": "Sun's Grace",
+                "description": "Netherite Tools become Sun's Grace themed",
+                "category": "gear",
+                "incompatibilities": [ "honeyPackNetherite", "emeraldite", "basaltite", "anniversaryGyllene" ]
+            },
+            {
+                "id": "honeyNetheriteGear",
+                "label": "Honey Gear - Netherite",
+                "description": "Netherite Tools become Sun's Grace themed",
+                "category": "gear",
+                "incompatibilities": [ "sunGrace", "basaltite", "emeraldite", "anniversaryGyllene" ]
+            },
+            {
+                "id": "honeyDiamondGear",
+                "label": "Honey Gear - Diamond",
+                "description": "Diamond Tools become Sun's Grace themed",
+                "category": "gear"
+            },
+            {
+                "id": "amethystTrident",
+                "label": "Amethyst Trident",
+                "description": "Recolors the Trident to be Amethyst Themed, with sounds too!",
+                "category": "gear",
+                "incompatibilities": [ "satanicTrident", "diamondTrident", "whisperingTrident", "anniversaryGyllene", "monetherite" ]
+            },
+            {
+                "id": "heartSwords",
+                "label": "Heart Swords",
+                "description": "Changes the all Swords to a Heart on a Stick",
+                "category": "gear",
+                "incompatibilities": [ "sunGrace", "honeyDiamondGear", "honeyNetheriteGear", "anniversaryGyllene" ]
+            },
+            {
+                "id": "anniversaryGyllene",
+                "label": "Anniversary+ Gyllene",
+                "description": "Adds the Gyllene content from Anniversary+",
+                "category": "gear",
+                "incompatibilities": [ "amethystTrident", "basaltite", "diamondTrident", "emeraldite", "heartSwords", "honeyNetheriteGear", "netheriteElytra", "satanicTrident", "sunGrace", "whisperingTrident", "monetherite" ]
+            },
+            {
+                "id": "monetherite",
+                "label": "More Netherite Gear",
+                "description": "Retextures lots of tools to be look like Netherite",
+                "category": "gear",
+                "incompatibilities": [ "amethystTrident", "basaltite", "diamondTrident", "emeraldite", "heartSwords", "honeyNetheriteGear", "netheriteElytra", "satanicTrident", "sunGrace", "whisperingTrident", "anniversaryGyllene" ]
+            }
+            
+        ]
+	},
+	{
+		"name": "Minecraft: Dungeons themed packs",
+        "modules": [
+            {
+                "id": "ghastlyBeekeeping",
+                "label": "Ghastly Beekeeping",
+                "description": "Changes Bees and bee content to Baby Ghast content",
+                "category": "dungeons",
+                "optifine": "required",
+                "incompatibilities": [ "thiccBees", "rainbowMobs" ]
+            },
+            {
+                "id": "deathCapped",
+                "label": "Death Capped",
+                "description": "Changes everything Brown Mushroom to Death Cap Mushroom.",
+                "category": "dungeons",
+                "incompatibilities": [ "picowle", "picowleMicro", "picowleMicroPlus", "cowStyledMoobloom", "moobloomStyledCows" ]
+            },
+            {
+                "id": "dungeonsDummy",
+                "label": "Dungeons Dummy",
+                "description": "Changes Armor Stands to appear like the Dummies from Minecraft: Dungeons.",
+                "category": "dungeons",
+                "optifine": "required",
+                "incompatibilities": [ "steverStand" ]
+            },
+            {
+                "id": "armorMobs",
+                "label": "Armor2Mobs",
+                "description": "Replaces some mobs to look like armors from Minecraft: Dungeons.",
+                "category": "dungeons"
+            },
+            {
+                "id": "dungeonsLightningRodPlus",
+                "label": "Dungeons Lightning Rod+",
+                "description": "Changes Lightning Rod to look like the one from Minecraft: Dungeons!",
+                "category": "dungeons",
+                "incompatibilities": [ "iceWandPlus" ]
+            },
+            {
+                "id": "iceWandPlus",
+                "label": "Ice Wand Lightning Rod+",
+                "description": "Changes Lightning Rod to look like the Ice Wand from Minecraft: Dungeons!",
+                "category": "dungeons",
+                "incompatibilities": [ "dungeonsLightningRodPlus" ]
+            },
+            {
+                "id": "corruptedBeacon",
+                "label": "Corrupted Beacon",
+                "description": "Changes the Beacon to look like the Corrupted Beacon from Minecraft: Dungeons.",
+                "category": "dungeons"
+            },
+            {
+                "id": "buzzyNest",
+                "label": "Buzzy Nest",
+                "description": "Replaces Acacia Signs with the Buzzy Nest from Minecraft: Dungeons",
+                "category": "dungeons",
+                "optifine": "required"
+            },
+            {
+                "id": "dungeonsSoulLantern",
+                "label": "Dungeons Soul Lantern",
+                "description": "Soul Lanterns are changed to appear like the Artifact from Minecraft: Dungeons.",
+                "category": "dungeons"
+            },
+            {
+                "id": "whisperingTrident",
+                "label": "Whispering Trident",
+                "description": "Recolors the Trident to appear like the Whispering Spear from Minecraft: Dungeons",
+                "category": "dungeons",
+                "incompatibilities": [ "amethystTrident", "diamondTrident", "satanicTrident", "anniversaryGyllene" ]
+            },
+            {
+                "id": "mysteryTrader",
+                "label": "Mystery Trader",
+                "description": "Retextures the Wandering Trader to be heavily themed after the Mystery Merchant",
+                "category": "dungeons"
+            },
+            {
+                "id": "ghastlyBeekeeping",
+                "label": "Ghastly Beekeeping",
+                "description": "Changes Bees and bee content to Baby Ghast content",
+                "category": "dungeons",
+                "optifine": "required",
+                "incompatibilities": [ "thiccBees", "rainbowMobs" ]
+            }
+            
+        ]
+	},
+	{
+		"name": "Other & Random packs",
+        "modules": [
+            {
+                "id": "anniversaryBeds",
+                "label": "Anniversary Beds",
+                "description": "Changes all the bed pillows to appear Golden themed.",
+                "category": "misc"
+            },
+            {
+                "id": "uwuLanguage",
+                "label": "UwU Language",
+                "description": "Repalces every 'r' with a 'w'.",
+                "category": "misc"
+            },
+            {
+                "id": "snowpowder",
+                "label": "Biome Powder Snow",
+                "description": "Retexture Powder Snow to either Mud or Quicksand, according to the biome",
+                "category": "misc",
+                "incompatibilities": [ "mud", "powdersnowier" ]
+            },
+            {
+                "id": "cakeLie",
+                "label": "Cake is a Lie",
+                "description": "Changes the Sculk Sensor to appear like a cake, a fake one!",
+                "category": "misc",
+                "incompatibilities": [ "redstoneSculkSensor", "redstoneLampSculkSensor", "betterSculkSensor" ]
+            },
+            {
+                "id": "hailstone",
+                "label": "Hailstone",
+                "description": "Changes the Dripstone blocks to Hailstone, an icy alternate version.",
+                "category": "misc"
+            },
+            {
+                "id": "japaneseLanterns",
+                "label": "Japanese Lanterns",
+                "description": "Replaces both Lantners to be Japanese styled.",
+                "category": "misc",
+                "incompatibilities": [ "dungeonsSoulLantern", "chineseLanterns" ],
+                "pinku": true
+            },
+            {
+                "id": "lushCampfire",
+                "label": "Lush Campfire",
+                "description": "Spore Blossoms are changed to appear like upside down green flamed campfires.",
+                "category": "misc",
+                "incompatibilities": [ "classicCampfires" ]
+            },
+            {
+                "id": "earthJournal",
+                "label": "Earth Journal Items",
+                "description": "Replaces all books with the journal from Minecraft: Earth",
+                "category": "misc"
+            },
+            {
+                "id": "chineseLanterns",
+                "label": "Chinese Lanterns",
+                "description": "Replaces both Lantners to be Chinese styled.",
+                "category": "misc",
+                "incompatibilities": [ "dungeonsSoulLantern", "japaneseLanterns" ],
+                "pinku": true
+            },
+            {
+                "id": "classicCampfires",
+                "label": "Classic Campfires",
+                "description": "Remodells the Campfires to appear a bit more simple, like their original counterpart. It's inspired by the first version of Campfires!",
+                "category": "misc",
+                "optifine": "required",
+                "incompatibilities": [ "lushCampfire" ]
+            }
+        ]
+
+	},
+	{
+		"name": "Basalt Columns",
+        "modules": [
+            {
+                "id": "boldMuddy",
+                "label": "Bold Muddy",
+                "description": "Changes the rare black rabbit to Bold Muddy",
+                "category": "basaltColumns",
+                "incompatibilities": [ "jumboRabbits" ]
+            },
+            {
+                "id": "basaltBuddies",
+                "label": "Basalt Buddies",
+                "description": "Any fox or rabbit who spawn in Basalt Deltas will become EVIL basalt mobs!",
+                "category": "basaltColumns",
+                "optifine": "required",
+                "incompatibilities": [ "pinkFoxes", "jumboRabbits", "rainbowMobs" ],
+                "pinku": true
+            },
+            {
+                "id": "boldMuddyAxolotl",
+                "label": "Bold Muddy Axolotl",
+                "description": "Changes the rare blue axolotl to Bold Muddy",
+                "category": "basaltColumns",
+                "incompatibilities": [ "ewanAxolotl" ]
+            },
+            {
+                "id": "basaltElytra",
+                "label": "Basalt Elytra",
+                "description": "Changes the Elytra to appear like Basalt",
+                "category": "basaltColumns",
+                "incompatibilities": [ "netheriteElytra" ]
+            },
+            {
+                "id": "oinkers",
+                "label": "Oinkers MacLin",
+                "description": "Changes Totem of Undying to Oinkers MacLIn!",
+                "category": "basaltColumns"
+            },
+            {
+                "id": "boldMuddyHood",
+                "label": "Bold Muddy Hood",
+                "description": "Rename Carved Pumpkin to Bold Muddy Hood",
+                "category": "basaltColumns",
+                "optifine": "required"
+            },
+            {
+                "id": "pinkFoxes",
+                "label": "Pink Foxes",
+                "description": "Retextures both fox types to be a little bit more pink.",
+                "category": "basaltColumns",
+                "incompatibilities": [ "basaltBuddies" ],
+                "pinku": true
+            },
+            {
+                "id": "oinkersArmor",
+                "label": "Oinkers Maclin Armor",
+                "description": "Retextures Netherite Armor to Oinkers Maclin themed Armor.",
+                "category": "basaltColumns",
+                "incompatibilities": [ "basaltite", "emeraldite" ]
+            },
+            {
+                "id": "devolutionPainting",
+                "label": "Devolution Painting",
+                "description": "Adds a Painting with the Devolution Pixel Art I made, isn't it so cool?",
+                "category": "basaltColumns"
+            }
+        ]
+	},
+	{
+		"name": "Pumpkin Hats",
+        "modules": [
+            {
+                "id": "earthHoods",
+                "label": "Minecraft: Earth themed Hoods.",
+                "description": "Moobloom, Bold Rabbit, Cluckshroom, Horned Sheep, Muddy Pig and Earth Hero Hoods.",
+                "category": "pumpkinHats",
+                "optifine": "required"
+            },
+            {
+                "id": "earthJournalHat",
+                "label": "Minecraft: Earth Journal Book",
+                "description": "Rename Carved Pumpkin to Earth Journal.",
+                "category": "pumpkinHats",
+                "optifine": "required"
+            },
+            {
+                "id": "beeCreeperHood",
+                "label": "Bee Creeper Hood",
+                "description": "Rename Carved Pumpkin to Bee Creeper Hood",
+                "category": "pumpkinHats",
+                "optifine": "required"
+            },
+            {
+                "id": "archIllagerCrown",
+                "label": "Arch Illager Crown",
+                "description": "Rename Carved Pumpkin to Arch Illager Crown",
+                "category": "pumpkinHats",
+                "optifine": "required"
+            },
+            {
+                "id": "corruptedPumpkin",
+                "label": "Corrupted Pumpkin",
+                "description": "Jack O Lanterns become Corrupted Pumpkins, but you can also rename a Carved Pumpkin to Corrupted Pumpkin.",
+                "category": "pumpkinHats",
+                "optifine": "required"
+            },
+            {
+                "id": "muddyRabbitEars",
+                "label": "Muddy Rabbit Ears",
+                "description": "Rename a Carved Pumpkin to Muddy Rabbit Ears",
+                "category": "pumpkinHats",
+                "optifine": "required"
+            }
+        ]
+	}
+]

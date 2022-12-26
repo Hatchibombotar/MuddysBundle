@@ -1,0 +1,15 @@
+[
+    "minecraft\\lang\\en_us.json",
+    "minecraft\\textures\\block\\dripstone_block.png",
+    "minecraft\\textures\\block\\pointed_dripstone_down_base.png",
+    "minecraft\\textures\\block\\pointed_dripstone_down_frustum.png",
+    "minecraft\\textures\\block\\pointed_dripstone_down_middle.png",
+    "minecraft\\textures\\block\\pointed_dripstone_down_tip_merge.png",
+    "minecraft\\textures\\block\\pointed_dripstone_down_tip.png",
+    "minecraft\\textures\\block\\pointed_dripstone_up_base.png",
+    "minecraft\\textures\\block\\pointed_dripstone_up_frustum.png",
+    "minecraft\\textures\\block\\pointed_dripstone_up_middle.png",
+    "minecraft\\textures\\block\\pointed_dripstone_up_tip_merge.png",
+    "minecraft\\textures\\block\\pointed_dripstone_up_tip.png",
+    "minecraft\\textures\\item\\pointed_dripstone.png"
+]

@@ -1,0 +1,22 @@
+[
+    "minecraft\\blockstates\\soul_campfire.json",
+    "minecraft\\models\\block\\campfire_off.json",
+    "minecraft\\models\\block\\campfire.json",
+    "minecraft\\models\\block\\soul_campfire_off.json",
+    "minecraft\\models\\block\\soul_campfire.json",
+    "minecraft\\models\\block\\template_campfire.json",
+    "minecraft\\textures\\block\\campfire_fire.png",
+    "minecraft\\textures\\block\\campfire_fire.png.mcmeta",
+    "minecraft\\textures\\block\\campfire_side.png",
+    "minecraft\\textures\\block\\campfire_top_on.png",
+    "minecraft\\textures\\block\\campfire_top_on.png.mcmeta",
+    "minecraft\\textures\\block\\campfire_top.png",
+    "minecraft\\textures\\block\\soul_campfire_fire.png",
+    "minecraft\\textures\\block\\soul_campfire_fire.png.mcmeta",
+    "minecraft\\textures\\block\\soul_campfire_side.png",
+    "minecraft\\textures\\block\\soul_campfire_top_on.png",
+    "minecraft\\textures\\block\\soul_campfire_top_on.png.mcmeta",
+    "minecraft\\textures\\block\\soul_campfire_top.png",
+    "minecraft\\textures\\item\\campfire.png",
+    "minecraft\\textures\\item\\soul_campfire.png"
+]

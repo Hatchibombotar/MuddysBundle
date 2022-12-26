@@ -1,0 +1,160 @@
+:root {
+  --box-shadow: inset 4px 4px 0 0px #d6d6d6, inset -4px -4px 0 0px #585658;
+  --foreground-main: #1e1e1e;
+  --foreground-emphasis: #191919;
+  --font-color: white;
+  --selected: #be8a21;
+  --background-transparent: #1d1d1d99;
+  --incompatible: #3f0000;
+}
+
+.header {
+  height: 100px;
+  margin: 20px;
+}
+
+.header a {
+  cursor: pointer;
+}
+
+.moduleList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.module, .member {
+  width: auto;
+  padding: 5px;
+  margin: 20px;
+  border: 4px solid black;
+  box-shadow: var(--box-shadow);
+  user-select: none;
+
+  background-color: var(--background-transparent);
+
+
+  text-align: center;
+
+  cursor: pointer;
+}
+
+.module { height: 190px; }
+
+.member { height: 220px; }
+
+.module>img, .member>img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  max-height: 100px;
+  max-width: 200px;
+}
+
+.module>p {
+  display: none;
+}
+
+.module:hover>p {
+  display: block;
+}
+
+.module:hover>img {
+  display: none;
+}
+
+.categoryHeader {
+  display: flex;
+  box-shadow: var(--box-shadow);
+  align-items: center;
+  justify-content: center;
+  margin: 0px 20px;
+  /* background-image: url('/backgrounds/powder_basalt.png'); */
+  background-color: var(--background-transparent);
+}
+
+.categoryHeader>p {
+  font-size: x-large;
+}
+
+.picker {
+  width: 75%;
+}
+
+.sidebar {
+  box-shadow: var(--box-shadow);
+  margin-left: 75%;
+  width: 22vw;
+
+  position: fixed;
+  top: 140px;
+
+  padding: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--foreground-main);
+}
+
+@media only screen and (max-width: 400px) {
+  .sidebar {
+  margin-left: 0;
+  position: unset;
+  }
+}
+
+.sidebar>* {
+
+  margin: 50px;
+  width: 100%;
+  margin: 0;
+  height: auto;
+}
+
+.sidebar>button {
+  background-color: var(--foreground-main);
+
+  color: var(--font-color);
+  border: none;
+  height: 7vh;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.sidebar > button.buttonPrimary {
+  background-color: var(--foreground-emphasis);
+
+}
+
+.moduleSelected {
+  border-color: var(--selected);
+}
+
+.moduleIncompatible {
+  background-color: var(--incompatible);
+  cursor: default;
+}
+
+.preview {
+  width: 90%;
+  aspect-ratio: 1920/1080;
+}
+
+.socials {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.socials > a > svg {
+  width: 30px;
+  color: var(--font-color);
+  padding: 5px;
+}
+
+h3 {
+  font-weight: normal;
+}
