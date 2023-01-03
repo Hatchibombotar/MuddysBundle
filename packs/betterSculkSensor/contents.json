@@ -1,0 +1,13 @@
+[
+    "minecraft\\blockstates\\sculk_sensor.json",
+    "minecraft\\models\\block\\sculk_sensor_active.json",
+    "minecraft\\models\\block\\sculk_sensor_cooldown.json",
+    "minecraft\\textures\\block\\active_sculk_sensor_side.png",
+    "minecraft\\textures\\block\\active_sculk_sensor_side.png.mcmeta",
+    "minecraft\\textures\\block\\active_sculk_sensor_top.png",
+    "minecraft\\textures\\block\\active_sculk_sensor_top.png.mcmeta",
+    "minecraft\\textures\\block\\cooldown_sculk_sensor_side.png",
+    "minecraft\\textures\\block\\cooldown_sculk_sensor_side.png.mcmeta",
+    "minecraft\\textures\\block\\cooldown_sculk_sensor_top.png",
+    "minecraft\\textures\\block\\cooldown_sculk_sensor_top.png.mcmeta"
+]

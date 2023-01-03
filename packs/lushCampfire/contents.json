@@ -1,0 +1,12 @@
+[
+    "minecraft\\lang\\en_us.json",
+    "minecraft\\models\\block\\spore_blossom.json",
+    "minecraft\\models\\item\\spore_blossom.json",
+    "minecraft\\particles\\falling_spore_blossom.json",
+    "minecraft\\textures\\block\\spore_campfire_fire.png",
+    "minecraft\\textures\\block\\spore_campfire_fire.png.mcmeta",
+    "minecraft\\textures\\block\\spore_campfire_log_lit.png",
+    "minecraft\\textures\\block\\spore_campfire_log_lit.png.mcmeta",
+    "minecraft\\textures\\block\\spore_campfire_log.png",
+    "minecraft\\textures\\item\\spore_blossom.png"
+]

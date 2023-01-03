@@ -1,0 +1,22 @@
+[
+    "minecraft\\particles\\glow.json",
+    "minecraft\\sounds\\mob\\glow_squid\\ambient1.ogg",
+    "minecraft\\sounds\\mob\\glow_squid\\ambient2.ogg",
+    "minecraft\\sounds\\mob\\glow_squid\\ambient3.ogg",
+    "minecraft\\sounds\\mob\\glow_squid\\ambient4.ogg",
+    "minecraft\\sounds\\mob\\glow_squid\\ambient5.ogg",
+    "minecraft\\sounds\\mob\\glow_squid\\death1.ogg",
+    "minecraft\\sounds\\mob\\glow_squid\\death2.ogg",
+    "minecraft\\sounds\\mob\\glow_squid\\hurt1.ogg",
+    "minecraft\\sounds\\mob\\glow_squid\\hurt2.ogg",
+    "minecraft\\sounds\\mob\\glow_squid\\hurt3.ogg",
+    "minecraft\\sounds\\mob\\glow_squid\\hurt4.ogg",
+    "minecraft\\sounds\\mob\\glow_squid\\squirt1.ogg",
+    "minecraft\\sounds\\mob\\glow_squid\\squirt2.ogg",
+    "minecraft\\sounds\\mob\\glow_squid\\squirt3.ogg",
+    "minecraft\\textures\\entity\\squid\\glow_squid.png",
+    "minecraft\\textures\\item\\glow_ink_sac.png",
+    "minecraft\\textures\\particle\\glow.json",
+    "minecraft\\textures\\particle\\glow.png",
+    "minecraft\\textures\\particle\\glow1.png"
+]

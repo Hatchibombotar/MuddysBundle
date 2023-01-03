@@ -1,0 +1,14 @@
+[
+    "minecraft\\lang\\en_us.json",
+    "minecraft\\sounds\\item\\trident\\ground_impact1.ogg",
+    "minecraft\\sounds\\item\\trident\\ground_impact2.ogg",
+    "minecraft\\sounds\\item\\trident\\ground_impact3.ogg",
+    "minecraft\\sounds\\item\\trident\\ground_impact4.ogg",
+    "minecraft\\sounds\\item\\trident\\pierce1.ogg",
+    "minecraft\\sounds\\item\\trident\\pierce2.ogg",
+    "minecraft\\sounds\\item\\trident\\pierce3.ogg",
+    "minecraft\\sounds\\item\\trident\\throw1.ogg",
+    "minecraft\\sounds\\item\\trident\\throw2.ogg",
+    "minecraft\\textures\\entity\\trident.png",
+    "minecraft\\textures\\item\\trident.png"
+]
