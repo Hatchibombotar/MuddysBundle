@@ -17,6 +17,10 @@ const [selectedModules, setSelectedModules] = createSignal([
   "baseFiles"
 ])
 
+const [shownCategories, setShownCategories] = createSignal([data[0].name])
+
+const toggleArrayElement = (arr, item) => arr.includes(item) ? arr.filter(i => i !== item) : [...arr, item];
+
 const removeModule = (module) => {
   setSelectedModules(selectedModules().filter((mod) => mod != module))
 }
@@ -48,39 +52,46 @@ function PackPicker() {
 
       </div>
       <div class={styles.picker}>
-        <For each={data}>{(category) =>
-          <>
-            <div class={styles.categoryHeader}>
+        <For each={data}>{(category) => {
+
+          const categoryHidden = () => !shownCategories().includes(category.name)
+          return <>
+            <div
+              class={styles.categoryHeader}
+              onclick={() => setShownCategories(toggleArrayElement(shownCategories(), category.name))}
+            >
               <p>{category.name}</p>
             </div>
-            <div class={styles.moduleList}>
-              <For each={category.modules}>{(module) => {
-                const disabled = () => selectedModules().some((selectedModule) => module.incompatibilities?.includes(selectedModule))
-                return <div
-                  class={`
+            <Show when={!categoryHidden()}>
+              <div class={styles.moduleList}>
+                <For each={category.modules}>{(module) => {
+                  const disabled = () => selectedModules().some((selectedModule) => module.incompatibilities?.includes(selectedModule))
+                  return <div
+                    class={`
                   ${styles.module}
                   ${selectedModules().includes(module.id) ? styles.moduleSelected : undefined}
                   ${disabled() ? styles.moduleIncompatible : undefined}`
-                  }
-                  onclick={() => {
-                    if (disabled()) return
-                    if (selectedModules().includes(module.id)) {
-                      removeModule(module.id)
-                    } else {
-                      addModule(module.id)
                     }
-                  }}
-                  onmouseover={() => setPreview(module.id)}
-                  onmouseout={() => setPreview("default")}
-                >
-                  <h3>{module.label}</h3>
-                  <img src={`icons/${module.id}.png`} />
-                  <p>{module.description}</p>
-                </div>
-              }}</For>
-            </div>
+                    onclick={() => {
+                      if (disabled()) return
+                      if (selectedModules().includes(module.id)) {
+                        removeModule(module.id)
+                      } else {
+                        addModule(module.id)
+                      }
+                    }}
+                    onmouseover={() => setPreview(module.id)}
+                    onmouseout={() => setPreview("default")}
+                  >
+                    <p class={styles.description}>{module.description}</p>
+                    <img src={`icons/${module.id}.png`} />
+                    <h3>{module.label}</h3>
+                  </div>
+                }}</For>
+              </div>
+            </Show>
           </>
-        }</For>
+        }}</For>
       </div>
 
     </main>
